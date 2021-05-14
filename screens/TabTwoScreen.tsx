@@ -1,8 +1,16 @@
+<<<<<<< HEAD
 import * as React from 'react';
 import { StyleSheet } from 'react-native';
 import { Pedido} from '../models/pedido';
 import EditScreenInfo from '../components/EditScreenInfo';
 import { Text, View } from '../components/Themed';
+=======
+import * as React from "react";
+import { StyleSheet } from "react-native";
+
+import EditScreenInfo from "../components/EditScreenInfo";
+import { Text, View } from "../components/Themed";
+>>>>>>> 3a669f30aed2d8f94468efa80a23239a0475ccb2
 
 
 const orderList  : Array<Pedido> = [
@@ -57,17 +65,17 @@ export default function TabTwoScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    alignItems: 'center',
-    justifyContent: 'center',
+    alignItems: "center",
+    justifyContent: "center",
   },
   title: {
     fontSize: 20,
-    fontWeight: 'bold',
+    fontWeight: "bold",
   },
   separator: {
     marginVertical: 30,
     height: 1,
-    width: '80%',
+    width: "80%",
   },
   item: {
     marginVertical: 30,
