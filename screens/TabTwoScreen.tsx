@@ -1,17 +1,8 @@
-<<<<<<< HEAD
 import * as React from 'react';
 import { StyleSheet } from 'react-native';
 import { Pedido} from '../models/pedido';
 import EditScreenInfo from '../components/EditScreenInfo';
 import { Text, View } from '../components/Themed';
-=======
-import * as React from "react";
-import { StyleSheet } from "react-native";
-
-import EditScreenInfo from "../components/EditScreenInfo";
-import { Text, View } from "../components/Themed";
->>>>>>> 3a669f30aed2d8f94468efa80a23239a0475ccb2
-
 
 const orderList  : Array<Pedido> = [
   {
